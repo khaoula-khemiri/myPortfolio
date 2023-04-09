@@ -1,0 +1,98 @@
+@import "../../global.scss";
+
+.experience {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 40px;
+
+        @include mobile {
+            font-size: 30px;
+            overflow: hidden;
+        }
+    }
+
+    .exeperienceContainer {
+        width: 80%;
+
+        .experienceItem {
+            display: flex;
+            padding: 15px;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            .experienceDate {
+                width: 100px;
+                height: 100px;
+                font-size: 15px;
+                color: white;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                background-color: crimson;
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+
+                @include mobile {
+                    display: none;
+                }
+            }
+
+            .experienceDesc {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border: 1px solid crimson;
+                padding: 10px;
+                border-radius: 10px;
+                width: 70%;
+
+                @include mobile {
+                    width: 100%;
+                }
+
+                .experienceDescTitle {
+                    display: flex;
+                    flex-direction: column;
+                    font-weight: 600;
+                    font-size: 16px;
+                    padding-bottom: 5px;
+
+                    @include mobile {
+                        font-size: 14px;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: gray;
+
+                        @include mobile {
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .experienceDescParagraph {
+                    font-size: 13px;
+
+                    @include mobile {
+                        font-size: 12px;
+                    }
+                }
+
+            }
+
+        }
+
+
+
+    }
+
+}
