@@ -2,28 +2,29 @@ import React, { useEffect, useState } from "react"; import PortfolioList from ".
 import "./portfolio.scss";
 import {
   feautredPortfolio,
-  webapp,
   backendapp
 } from "../../data"
 
 const Portfolio = () => {
-  const [selected, setSelected] = useState("featured")
+  const [selected, setSelected] = useState("1")
   const [data, setData] = useState([])
   const list = [
     {
-      id: "featured",
-      title: "Front end "
+      id: "1",
+      title: "1"
     },
 
     {
-      id: "backend App",
-      title: "Backend App"
+      id: "2",
+      title: "2"
     }
+
+
   ]
   useEffect(() => {
 
     switch (selected) {
-      case "backend App":
+      case "2":
         setData(backendapp)
         break;
       default:
@@ -50,8 +51,8 @@ const Portfolio = () => {
               <img src={d.img} alt="" />
               <h3>{d.title}</h3>
               <div className="link">
-                <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank">Git Hub</a>
-                <a href="https://www.youtube.com/watch?v=ZLLD_EpGtB8" className="linkButton">Live Demo</a>
+                <a href={d.git} target="_blank">Git Hub</a>
+                <a href={d.demo} target="_blank" className="linkButton">Live Demo</a>
               </div>
 
             </div>

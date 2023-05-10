@@ -1,23 +1,34 @@
+
+
+
 export const feautredPortfolio = [
     {
         id: 1,
-        title: "E-commerce web design",
-        img: "https://kinsta.com/fr/wp-content/uploads/sites/4/2020/02/meilleures-pratiques-web-design.jpg"
+        title: "E-commerce website",
+        img: "assets/shop.jpg",
+        git: "https://github.com/khaoula-khemiri/clientStoreapp",
+        demo: "https://hijabi-store.netlify.app/"
     },
     {
         id: 2,
-        title: "E-commerce web design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ8AP10nJCMrVpNaibRC4eIr4hrB6v8KGaBQ&usqp=CAU"
+        title: "Admin dashboard ",
+        img: "assets/admin.jpg",
+        git: "https://github.com/khaoula-khemiri/admin",
+        demo: "https://adminapphijabi.netlify.app/"
     },
     {
         id: 3,
-        title: "E-commerce web design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpHxpgUoLX8VifBs88Iy69y6gOi2jeKxMWg&usqp=CAU"
+        title: "Weather App",
+        img: "assets/weather.jpg",
+        git: "https://github.com/khaoula-khemiri/weather-app",
+        demo: "https://weather-app-alpha-pink.vercel.app/"
     },
     {
         id: 4,
-        title: "E-commerce web design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMih82JhKpVGhbFcykji2YAWjYLcl-h54UA&usqp=CAU"
+        title: "Prayer App",
+        img: "assets/prayer.jpg",
+        git: "https://github.com/khaoula-khemiri/weather-app",
+        demo: "https://prayer-times-app.vercel.app/"
     },
 
 
@@ -28,24 +39,35 @@ export const feautredPortfolio = [
 export const backendapp = [
     {
         id: 1,
-        title: "webapp",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVHrh5v6qLoy7Bp36FefmQ4UZkyNyuKeTuCA&usqp=CAU"
+        title: "Convertisseur de devise",
+        img: "assets/convertisseur.jpg",
+        git: "https://github.com/khaoula-khemiri/converter-app-",
+        demo: "https://converter-app-iota.vercel.app/"
     },
     {
         id: 2,
-        title: "E-commerce web design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI_k25UgBzaeBJmxxnp_NROwkTAUYt3fEBLA&usqp=CAU"
+        title: "Learn App",
+        img: "assets/learn.jpg",
+        git: "https://github.com/khaoula-khemiri/Learn_APP",
+        demo: "https://learn-app.vercel.app/"
     },
     {
         id: 3,
-        title: "E-commerce web design",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZpWOHSTuJyz6wVkLFiFm6g9B7XVXhdHQqHhAJR_dkPNMzjKFfXsuqtc2-UBFKzODgsU&usqp=CAU"
+        title: "blokus game",
+        img: "assets/blokus.jpg",
+        git: "https://github.com/khaoula-khemiri/new-blokusGame",
+        demo: "https://new-blokus-game.vercel.app/"
     },
     {
         id: 4,
-        title: "E-commerce web design",
-        img: "https://kinsta.com/fr/wp-content/uploads/sites/4/2020/02/meilleures-pratiques-web-design.jpg"
+        title: "Tik-Tak-Toe",
+        img: "assets/tik-tak.jpg",
+        git: "https://github.com/khaoula-khemiri/Tik-Tak-Toe",
+        demo: "https://tik-tak-toe-murex.vercel.app/"
     }
 
 
 ];
+
+
+
