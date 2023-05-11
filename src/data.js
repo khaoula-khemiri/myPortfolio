@@ -39,7 +39,7 @@ export const feautredPortfolio = [
 export const backendapp = [
     {
         id: 1,
-        title: "Convertisseur de devise",
+        title: "converter app",
         img: "assets/convertisseur.jpg",
         git: "https://github.com/khaoula-khemiri/converter-app-",
         demo: "https://converter-app-iota.vercel.app/"

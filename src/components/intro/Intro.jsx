@@ -30,7 +30,8 @@ const Intro = () => {
           </h3>
 
           <div className="aboutMe">
-            I'm a web nqjkqvb bvs Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquam, laudantium placeat magnam,
+            I am a web developer. I specialize in creating user interfaces
+            and web applications using modern front-end and back-end technologies
 
           </div>
           <div className="contactContainer">

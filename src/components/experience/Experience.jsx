@@ -44,7 +44,7 @@ const Experience = () => {
           className="experienceItem"
         >
 
-          <div className="experienceDate">2022-2023</div>
+          <div className="experienceDate">2022-Present</div>
 
           <div className="experienceDesc">
 
@@ -54,10 +54,9 @@ const Experience = () => {
             </div>
 
             <div className="experienceDescParagraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Officia laborum error minus exercitationem veniam voluptatum,
-              non, odio adipisci vel, tempore accusantium voluptate autem culpa
-              porro eaque cupiditate praesentium magni quaerat?
+              <p>- Led a team of designers, data analysts, marketers, and voice over artists
+                to create and launch a popular application for kids</p>
+              <p>- Developed and delivered online courses in Python programming. </p>
             </div>
 
 
@@ -82,10 +81,12 @@ const Experience = () => {
             </div>
 
             <div className="experienceDescParagraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Officia laborum error minus exercitationem veniam voluptatum,
-              non, odio adipisci vel, tempore accusantium voluptate autem culpa
-              porro eaque cupiditate praesentium magni quaerat?
+              <p>- Designing and developing various mechanical components and
+                systems for industrial projects.</p>
+
+              <p>- Collaborated with cross-functional teams, including project managers,
+                mechanical and electrical engineers, and production personnel, to ensure
+                the timely completion of projects.</p>
             </div>
 
 
@@ -111,10 +112,7 @@ const Experience = () => {
             </div>
 
             <div className="experienceDescParagraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Officia laborum error minus exercitationem veniam voluptatum,
-              non, odio adipisci vel, tempore accusantium voluptate autem culpa
-              porro eaque cupiditate praesentium magni quaerat?
+              - Design a smart suitcase with intelligent features
             </div>
           </div>
         </motion.div>

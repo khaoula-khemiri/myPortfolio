@@ -147,6 +147,15 @@ const Skills = () => {
                             </div>
 
                         </div>
+
+                        <div className="item">
+                            <VerifiedUser className='itemIcon' />
+                            <div className="itemSkills">
+                                <div>Postman</div>
+                                <span>Experienced</span>
+                            </div>
+
+                        </div>
                     </div>
 
                 </motion.div>
