@@ -14,7 +14,7 @@ export const feautredPortfolio = [
         title: "Admin dashboard ",
         img: "assets/admin.jpg",
         git: "https://github.com/khaoula-khemiri/admin",
-        demo: "https://adminapphijabi.netlify.app/"
+        demo: "https://admin-shop-dashbord.netlify.app/"
     },
     {
         id: 3,

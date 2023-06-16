@@ -28,9 +28,9 @@
             overflow: visible;
 
             @include mobile {
-                width: 200px;
-                height: 200px;
-                overflow: visible;
+                width: 50%;
+                height: 50%;
+
             }
 
             img {
@@ -66,6 +66,8 @@
         @include mobile {
             padding: 15px;
 
+            overflow: visible;
+
         }
 
         .wrapper {
@@ -81,7 +83,7 @@
                 font-size: 35px;
 
                 @include mobile {
-                    font-size: 30px;
+                    font-size: 20px;
                 }
             }
 
@@ -89,7 +91,7 @@
                 font-size: 25px;
 
                 @include mobile {
-                    font-size: 20px;
+                    font-size: 16px;
                 }
             }
 
@@ -100,7 +102,7 @@
                 gap: 10px;
 
                 @include mobile {
-                    font-size: 19px;
+                    font-size: 17px;
                 }
 
                 span {

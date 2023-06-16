@@ -11,8 +11,8 @@
         font-size: 40px;
 
         @include mobile {
-            font-size: 30px;
-            overflow: hidden;
+            font-size: 20px;
+            overflow: visible;
         }
     }
 

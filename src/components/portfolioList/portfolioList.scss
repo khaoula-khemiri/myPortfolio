@@ -11,7 +11,7 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: hidden;
+    overflow: visible;
 
     &.active {
         background-color: $mainColor;
@@ -19,7 +19,9 @@
     }
 
     @include mobile {
-
+        height: 10px;
+        width: 10px;
+        font-size: 12px;
         overflow: hidden;
     }
 }
